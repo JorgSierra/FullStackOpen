@@ -5,8 +5,8 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
+	Note left of server: Server saves the message.
     server-->>browser: 302 Found 
-    Note left of server: Server saves the message.
     deactivate server
     Note right of browser: Browser reload.
 
