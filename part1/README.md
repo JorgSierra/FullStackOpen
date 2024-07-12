@@ -1,4 +1,4 @@
-# Part 1-a Introduction to React
+# Part 1
 
 The app on this folder is the follow up of the course.
 
