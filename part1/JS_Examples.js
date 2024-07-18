@@ -35,6 +35,15 @@ console.log('first', first);
 console.log('second', second);
 console.log('rest', rest);
 
+console.log('\ndestructuring object');
+let props = {
+    name: 'Arto Hellas',
+    age: 35,
+}
+const { name, age, other } = props;
+console.log('name', name);
+console.log('age', age);
+console.log('other', other);
 
 console.log('\nobject literals');
 const object1 = {
