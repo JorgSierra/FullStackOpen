@@ -2,7 +2,7 @@ const Total = ({ course }) => {
 
     let total = course.parts.reduce((count, part) => count + part.exercises, 0);
 
-    return <p>Number of exercises {total}</p>
+    return <h4>Total of {total} exercises</h4>
 
 }
 
